@@ -1,0 +1,40 @@
+
+.reward-details-section {
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+}
+.reward-details-section .slide-section {
+    /* padding-top: 10px; */
+    padding-bottom: 50px;
+}
+.reward-details-section .rewards-details {
+    padding-top: 30px;
+    text-align: left;
+}
+.mobile-slide .control-arrow {
+    opacity: 1 !important;
+    background-color: rgba(0,0,0,0.2) !important;
+}
+.carousel.carousel-slider {
+    overflow: initial;
+}
+.carousel .control-dots{
+    padding-inline-start: 0;
+    bottom:-50px
+}
+.carousel .control-dots .dot {
+    opacity: unset;
+}
+.carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover {
+    background:var(--primTextColr);
+}
+
+div.rewardDetail {
+    height: 150vmin;
+    background-image: url('../../images/Additional/bottomRewardDetail.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5vmin;
+}
