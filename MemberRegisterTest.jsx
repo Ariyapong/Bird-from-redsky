@@ -38,7 +38,7 @@ function MemberRegister(props) {
   const [disableSubDistrictFlag, setDisableSubDistrictFlag] = useState(true);
 
   useEffect(() => {
-    setMobileNo("0863791670");
+    setMobileNo("0659240106");
 
     validateAllValue();
   });
